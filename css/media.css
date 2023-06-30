@@ -1,0 +1,5 @@
+@media (max-width: 576px) { 
+    .word-media{
+        transform: translateX(90%);
+    }
+}
