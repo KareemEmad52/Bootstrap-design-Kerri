@@ -41,18 +41,27 @@ h6 {
 /* ============== NavBar ============== */
 .navbar-toggler-icon {
   background-image: none !important;
+  border: none;
+}
+.navbar-toggler{
+  border: none;
 }
 .navbar-toggler-icon > i {
   font-size: 25px;
   color: #fff;
 }
 .navbar {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  transition: background-color 0.5s;
   z-index: 555;
+}
+.navbar-brand{
+  color: #fff;
+}
+.nav-link{
+  color: #fff;
 }
 .navbar .nav-link.active {
   color: var(--mian-color) !important;
-  font-weight: 600;
 }
 .navbar-nav > li > a {
   transition: color 500ms;
@@ -196,7 +205,7 @@ h6 {
 .nav-pills .nav-link.active,
 .nav-pills .nav-link:hover {
   background-color: var(--mian-color);
-  color: #fff;
+  color: #fff !important;
 }
 
 .work .inner {
@@ -268,7 +277,9 @@ h6 {
   appearance: none;
   border-radius: 0.25rem;
 }
-
+.form-control:focus{
+  border-color: var(--mian-color);
+}
 .form-section textarea{
   min-height: 110px;
 }

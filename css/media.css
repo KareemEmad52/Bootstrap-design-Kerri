@@ -1,3 +1,17 @@
+@media screen and (max-width: 768px) {
+    .navbar {
+        background-color: #fff;
+      }
+      .navbar-brand{
+        color: #000;
+      }
+      .nav-link{
+        color: #000;
+      }
+      .navbar-toggler-icon > i {
+        color: #000;
+      }
+}
 @media (max-width: 450px) { 
     .word-media{
         transform: translateX(90%);
